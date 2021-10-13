@@ -7,7 +7,6 @@ function Board(size, playerOne, playerTwo) {
 
 Board.prototype.makeBoard = function(size) {
     let b = [];
-
     for (let i = 0; i < size; i++) {
       b.push(Array(size).fill(null));
     };
